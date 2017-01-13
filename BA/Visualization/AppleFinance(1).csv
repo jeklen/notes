@@ -1,0 +1,19 @@
+subitem,time1206,time1106,item
+Cash & Equivalents,7945,12091,Assets
+Short Term Investments,19709,16304,Assets
+Receivables,14298,11471,Assets
+Inventory,1122,889,Assets
+Other Current Assets,8869,6143,Assets
+Property,10487,6749,Assets
+Goodwill,1132,741,Assets
+Intangibles,4329,1169,Assets
+Long Term Investments,89567,47761,Assets
+Other Long Term Assets,5438,3440,Assets
+Accounts Payable,16808,15270,liabilities
+Accrued Expenses,2911,2224,liabilities
+Other Current liabilities,13341,9365,liabilities
+Deferred Income Tax,13195,7331,liabilities
+Other Liabilities,4895,3225,liabilities
+Common Stock,15573,12715,Equity
+Retained Earnings,95641,56239,Equity
+Other Equity,532,389,Equity
