@@ -1,0 +1,14 @@
+
+You need to run the scp command from the local machine, not on the remote. You don't need the ssh at all:
+
+dragonmnl@local $ scp -P 2222 file.ext username@domain:~/ 
+
+You also don't need the -r:
+
+ -r      Recursively copy entire directories.  
+
+If you are already logged into the remote machine and want to copy from your local, you need to make sure that your local machine is accessible via the internet and has ssh set up. I don't think this is what you are after but if it is, just run this from the remote:
+
+username@domain $ scp dragonmnl@local:/path/to/file.ext ~/
+
+

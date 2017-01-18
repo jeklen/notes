@@ -1,0 +1,21 @@
+## install chrominum
+
+## install pepper flash-player
+
+## fix libpepflashplayer.so problem
+
+Re: Pepperflashplugin-nonfree: and now?
+
+    Quote
+
+Postby palimmo » 13 Nov 2016 14:51
+I've found a quick solution.
+Here I've downloaded Flash 23 for linux (PPAPI)
+https://get.adobe.com/flashplayer/otherversions/
+extracted
+libpepflashplayer.so
+and manually copied into
+/usr/lib/pepperflashplugin-nonfree/
+(there was no file).
+
+Restarted Chromium and:
